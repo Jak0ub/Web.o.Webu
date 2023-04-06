@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>HTML5 Login Form with validation Example</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="login.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="login-form-wrap">
+  <h2>Přihlášení</h2>
+  <form id="login-form">
+    <p>
+    <input type="text" id="username" name="username" placeholder="přihlašovací jméno" required><i class="validation"><span></span><span></span></i>
+    </p>
+    <p>
+    <input type="email" id="email" name="email" placeholder="tvůj email" required><i class="validation"><span></span><span></span></i>
+    </p>
+    <p>
+    <input type="submit" id="Přihlaš se" value="Přihlaš se">
+    </p>
+  </form>
+  <div id="create-account-wrap">
+    <p>Nemáš účet? <a href="#">Vytvoř si ho!</a><p>
+  </div><!--create-account-wrap-->
+</div><!--login-form-wrap-->
+<!-- partial -->
+  
+</body>
+</html>
